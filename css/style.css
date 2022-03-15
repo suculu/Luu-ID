@@ -1,0 +1,173 @@
+.header{
+    background-color: rgba(255, 0, 0, 0.507);
+    padding: 12px 0;
+    position: absolute;
+    width: 100%;
+    z-index: 1999;
+}
+.logo{
+    display: inline-block;
+    vertical-align: middle;
+}
+.logo a img{
+    width: 72px;
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    background-size: cover;
+} 
+.nav ul{
+    list-style: none;
+}
+.nav li{
+    margin: 0 24px;
+}
+.nav li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;   
+}
+.nav li a:hover{
+    color: rgb(255, 0, 0);
+}
+.sub-menu{
+    background-color: rgba(255, 0, 0, 0.507);
+    color: white;
+    position: absolute;
+    padding: 12px 0;
+    display: none;
+}
+.nav li:hover .sub-menu{
+    display: block;
+}
+.login a:hover{
+    background-color: white;
+    border: 3px solid #70C217;
+    color: rgb(255, 0, 0)
+}
+/* main */
+.main{
+    padding: 100px 0;
+}
+.banner{
+    height: 100vh;
+    background: url("../img/Ielts-nhung-tran-–-ielts-writing-sample-languages.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.text-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 0, 0, 0.507);
+    padding: 50PX;
+}
+.text-box P{
+    margin: 32PX 0;
+}
+/* section 2*/
+.section-2{
+    padding: 100px 0;
+}
+.card{
+    text-align: center;
+    box-shadow: 0px 0px 10px #9c9c9c;
+    display: inline-block;
+    margin-top: 16px;
+    border-radius: 20px;
+    padding: 12px 0 24px;
+}
+.card-img{
+    overflow: hidden;
+    /* width: 300px; */
+}
+.card-img img{
+    width: 100%;
+}
+.content-card{
+    padding: 8px;
+}
+.content-card a{
+    color: #ffffff;
+    text-decoration: none;
+}
+/* section 3 */
+.section-3 {
+    padding: 100px 0;
+}
+.sec3-img{
+    overflow: hidden;
+    /* height: 400px; */
+    
+}
+.sec3-img img{
+    width: 100%;
+}
+.sec3-text p{
+    padding: 12px 0;
+}
+.sec3-text a{
+    text-decoration: none;
+    color: #1f1f1f;
+}
+/* section 4 */
+.box {
+    height: 190px;
+    padding: 24px 0 24px;
+    /* text-align: center; */
+    box-shadow: 0px 0px 5px #9c9c9c;
+    display: inline-block;
+    margin-top: 16px;
+    border-radius: 5px;
+}
+.section-4{
+    padding: 100px 0;
+}
+.sec4-img{
+    overflow: hidden;
+    width: 200px;
+    
+}
+.sec4-img img{
+    width: 100%;
+}
+.sec4-text a{
+    text-decoration: none;
+    color: #1f1f1f;
+}
+.sec4-text a:hover{
+    color: #c21717;
+}
+.sec4-text p{
+    overflow: hidden;
+    padding-right: 20%;
+}
+/* footer */
+.footer{
+    padding: 100px 0;
+    background-color:  rgba(255, 0, 0, 0.507);
+}
+.footer-logo img{
+    width: 200px;
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    background-size: cover;
+}
+.list-menu ul{
+    list-style: none;
+}
+.list-menu li{
+    margin: 12px 0;
+}
+.list-menu li a{
+    color: #fffbfb;
+    text-decoration: none;
+}
+.ho-ten{
+    text-align: center;
+    background-color: aquamarine;
+}
